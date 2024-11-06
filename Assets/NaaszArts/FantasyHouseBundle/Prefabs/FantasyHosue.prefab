@@ -2121,6 +2121,7 @@ GameObject:
   - component: {fileID: 65454620405830660}
   - component: {fileID: 6280031613873250582}
   - component: {fileID: 2237448837356790392}
+  - component: {fileID: 887217054785815804}
   m_Layer: 0
   m_Name: WindowFrames
   m_TagString: Untagged
@@ -2193,6 +2194,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!95 &887217054785815804
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6484831321315223586}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4e26ec71a3e64f0868ad33b3b4722f47, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6524950285974978190
 GameObject:
   m_ObjectHideFlags: 0
@@ -2267,6 +2289,7 @@ GameObject:
   - component: {fileID: 7136230607340402972}
   - component: {fileID: -4030779909738631358}
   - component: {fileID: -2367817294716384778}
+  - component: {fileID: 8844208010630406157}
   m_Layer: 0
   m_Name: FantasyHosue
   m_TagString: Untagged
@@ -2337,6 +2360,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiText: {fileID: 3729421973839517035}
+--- !u!95 &8844208010630406157
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7512896161749607334}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8c6c6cf6df05dced2aeeb30d53bba5e7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7579328620425753379
 GameObject:
   m_ObjectHideFlags: 0
@@ -2621,6 +2665,7 @@ GameObject:
   - component: {fileID: 1509936042206211734}
   - component: {fileID: 2253587735803042859}
   - component: {fileID: 5066473216517159950}
+  - component: {fileID: 8821278868821942706}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -2715,6 +2760,27 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.12541199, y: 1.5698233, z: 0.93060493}
   m_Center: {x: -0.0004682541, y: 0.015959859, z: -0.46500587}
+--- !u!95 &8821278868821942706
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8397580870476942362}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8a9c26ac137d2c48d99e3eb3ae75fe3b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &9146631984528047341
 GameObject:
   m_ObjectHideFlags: 0
