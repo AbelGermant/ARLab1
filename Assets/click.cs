@@ -1,11 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class click : MonoBehaviour, IPointerClickHandler
 {
-    public float rotationSpeed = 1000f;
+    private static string BaseText = "Clicked :";
+    private int ClickCount = 0;
+
+    // Add a public field for the TextMeshProUGUI component
+    public TextMeshProUGUI uiText;
 
     private void Start()
     {
@@ -19,6 +25,13 @@ public class click : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        
+        // increment the click count
+        ClickCount++;
+
+        // set the text to the base text + the click count
+        if (uiText != null)
+        {
+            uiText.text = BaseText + ClickCount;
+        }
     }
 }
